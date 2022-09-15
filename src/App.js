@@ -25,10 +25,11 @@ class App extends React.Component {
         const { advice } = this.state;
         return (
             <div className="app">
+                    <h1 className="head">Some Advice For You</h1>
                 <div className="card">
                     <h1 className="heading">{advice}</h1>
                     <button className="button" onClick={this.fetchAdvice}>
-                        <span>GIVE ME ADVICE!</span>
+                        <span>MORE ADVICE!</span>
                     </button>
                 </div>
 
